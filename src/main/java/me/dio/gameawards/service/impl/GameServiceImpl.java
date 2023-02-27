@@ -20,7 +20,7 @@ public class GameServiceImpl implements GameService {
 
     @Override
     public List<Game> findAll() {
-        List<Game> games = repository.findAll();
+        List<Game> games = repository.findAll(); // repository.findAll() retorna uma lista de jogos
         return games;
     }
 
